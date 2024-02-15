@@ -1,0 +1,7 @@
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\obj\Debug\Interfaces.csproj.AssemblyReference.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Interfaces\obj\Debug\Interfaces.pdb

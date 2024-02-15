@@ -1,0 +1,7 @@
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\bin\Debug\Generics.exe.config
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\bin\Debug\Generics.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\bin\Debug\Generics.pdb
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\obj\Debug\Generics.csproj.AssemblyReference.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\obj\Debug\Generics.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Generics\obj\Debug\Generics.pdb

@@ -1,0 +1,7 @@
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\bin\Debug\ReferenceTypes.exe.config
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\bin\Debug\ReferenceTypes.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\bin\Debug\ReferenceTypes.pdb
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\obj\Debug\ReferenceTypes.csproj.AssemblyReference.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\obj\Debug\ReferenceTypes.csproj.CoreCompileInputs.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\obj\Debug\ReferenceTypes.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\ReferenceTypes\obj\Debug\ReferenceTypes.pdb

@@ -1,0 +1,52 @@
+ASENKRON PROGRAMLAMA NEDİR ?
+
+Günümüzde yoğun olarak kullanılmaktadır.
+Senkron -> Zaman Kurallı
+Asenkron -> Zaman Kuralsız
+Asenkron programlama, bir programın işlemlerini sırayla ve beklemeksizin yürüten bir programlama paradigmasıdır. 
+Geleneksel, senkron programlamada bir işlem tamamlanmadan diğerine geçilmez ve program, her adımda bir işlemi bekler. 
+Asenkron programlamada ise bir işlem tamamlanmadan diğerine geçilir ve işlemler birbirinden bağımsız olarak çalışabilir.
+Bir thread iki işlem için ortak kullanılabilir.
+Asenkron programlamada yaygın olarak kullanılan öğeler şunlardır:
+
+1.Callback Fonksiyonları: Belirli bir işlem tamamlandığında çağrılan fonksiyonlardır. Bu şekilde, program diğer işlemleri beklemeksizin çalışabilir.
+
+2.Promiseler/Futures: Asenkron bir işlemin sonucunu temsil eden nesnelerdir. İşlem tamamlandığında, ilgili promiseler çözülür (resolved) ve sonuç alınabilir.
+
+3.Async/await: Bu, asenkron programlamayı daha okunabilir ve yönetilebilir hale getirmek için kullanılan bir dil özelliğidir. Programcılar, asenkron işlemleri senkron bir tarzda yazabilir ve yönetebilir.
+
+Asenkron programlama, özellikle ağ işlemleri, dosya okuma/yazma ve diğer giriş/çıkış işlemleri gibi uzun süreli işlemlerle uğraşan uygulamalarda yaygın olarak kullanılır. 
+Bu şekilde, bir işlem tamamlanırken diğer işlemlerin paralel olarak devam etmesi mümkün olur, bu da programın genel performansını artırabilir.
+
+MultiThreading :
+
+Threading, bir bilgisayar programının aynı anda birden fazla iş parçacığında (thread) çalışmasını ifade eden bir programlama kavramıdır. 
+İş parçacığı, bir işlemin çalışma zamanındaki temel yürütme birimidir. Thread'ler, bir program içinde aynı anda çeşitli görevleri eşzamanlı olarak gerçekleştirmek için kullanılır.
+Threading programlaması, özellikle çoklu çekirdekli işlemcilerin yaygın hale geldiği modern bilgisayar sistemlerinde performans artışı sağlamak için önemli bir rol oynamaktadır. 
+Threading'in bazı temel özellikleri şunlardır:
+Paralelizasyon: Threading, bir programın belirli görevleri eşzamanlı olarak yürütmesine olanak tanır. Bu, işlemleri paralel olarak çalıştırarak genel performansı artırabilir.
+İşlem Paylaşımı: Thread'ler, aynı bellek alanını paylaştıkları için birbirleriyle veri paylaşabilirler. Ancak, bu durum doğru bir şekilde yönetilmelidir, aksi takdirde senkronizasyon sorunlarına yol açabilir.
+Hafif İş Parçacıkları (Lightweight Threads): Hafif iş parçacıkları, işletim sistemi thread'lerine kıyasla daha hafif ve daha hızlı olan bir thread türüdür. 
+Bu, daha fazla sayıda thread oluşturulabilmesine ve daha düşük sistem kaynakları kullanılmasına olanak tanır.
+Senkronizasyon: Birden çok thread'in aynı anda çalışması durumunda, veri bütünlüğünü korumak ve uyumlu sonuçlar elde etmek için senkronizasyon mekanizmaları kullanılmalıdır.
+
+Threading programlaması, özellikle büyük ve karmaşık uygulamalarda performans iyileştirmesi sağlamak için yaygın olarak kullanılmaktadır. 
+Ancak, doğru bir şekilde yönetilmediğinde, senkronizasyon sorunları gibi potansiyel problemlere dikkat edilmelidir.
+
+Bir Programın Sadece Tek Bir (Single) Thread'i Varsa :
+
+Bir thread, bir bilgisayar programının çalışma zamanındaki temel yürütme birimidir ve bu, programın kodunu yürütmek için ayrılmış bir işlem parçacığını temsil eder. 
+Bir programın sadece tek bir thread'i varsa, bu durum genellikle tek işlemci veya çift çekirdekli bir işlemci içeren sistemlerde karşımıza çıkar.
+
+Tek bir thread çalıştıran bir program şu şekilde çalışır:
+
+1.Sıralı İşlem: Program, kodu sırasıyla işler. Bir adım tamamlandığında diğerine geçer. Bu durumda, program sıralı ve sıra üzerinde ilerler.
+2.İş Parçacığı (Thread) Yürütme: Program, tek bir thread içerdiği için yalnızca bir görevi aynı anda gerçekleştirir. Thread, programın ana yürütme konseptidir ve programın genel akışını kontrol eder.
+3.Bloklayıcı İşlemler: Eğer programın içinde uzun süren, bloklayıcı (blocking) işlemler varsa (örneğin, dosya okuma/ yazma, ağ ile iletişim), bu işlemler tamamlanana kadar program diğer işlemleri bekler. 
+Bu, programın biraz duraklamasına neden olabilir.
+4.Tek Görevci (Single-Tasking): Bir thread içeren bir program, aynı anda yalnızca bir görevi gerçekleştirebilir. Bu, işlemcinin tam kapasitesini kullanamayabilir, özellikle çoklu çekirdekli işlemcilere sahip sistemlerde.
+
+Bu basit modelde, tek bir thread içeren bir program sıralı bir şekilde çalışır ve işlemleri tek bir iş parçacığı üzerinde gerçekleştirir. 
+Daha gelişmiş ve paralel işleme yeteneklerine sahip uygulamalar, birden çok thread kullanarak aynı anda çeşitli görevleri gerçekleştirebilir.
+
+Bir Windows Form veya Console uygulamasında single thread vardır.

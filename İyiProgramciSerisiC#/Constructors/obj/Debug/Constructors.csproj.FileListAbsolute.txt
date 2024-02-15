@@ -1,0 +1,7 @@
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\bin\Debug\Constructors.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\bin\Debug\Constructors.pdb
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\obj\Debug\Constructors.csproj.AssemblyReference.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\obj\Debug\Constructors.exe
+C:\Users\Melike\source\repos\İyiProgramciSerisiC#\Constructors\obj\Debug\Constructors.pdb
